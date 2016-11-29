@@ -1,0 +1,10 @@
+    input.correct {
+        outline: none;
+        border-color: #05ed00;
+        box-shadow: 0 0 10px #05ed00;
+    }
+    input.fail {
+        outline: none;
+        border-color: #e80000;
+        box-shadow: 0 0 10px #e80000;
+    }

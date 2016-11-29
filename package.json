@@ -1,0 +1,24 @@
+{
+  "name": "tafels",
+  "version": "1.0.0",
+  "description": "Tafels oefening",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "author": "Andrey",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
