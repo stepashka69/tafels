@@ -82,7 +82,7 @@
 	
 	var _Question2 = _interopRequireDefault(_Question);
 	
-	var _Log = __webpack_require__(7);
+	var _Log = __webpack_require__(6);
 	
 	var _Log2 = _interopRequireDefault(_Log);
 	
@@ -169,6 +169,10 @@
 	    }, {
 	        key: 'ask',
 	        value: function ask() {
+	            if (this.count == this.total) {
+	                return;
+	            }
+	
 	            var ex = void 0;
 	            do {
 	                ex = new _Expression2.default(this.nrMin, this.nrMax);
@@ -461,8 +465,7 @@
 	exports.default = Question;
 
 /***/ },
-/* 6 */,
-/* 7 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';

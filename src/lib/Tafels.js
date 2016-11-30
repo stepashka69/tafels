@@ -53,6 +53,10 @@ export default class Tafels {
     }
 
     ask() {
+        if (this.count == this.total) {
+            return;
+        }
+
         let ex;
         do {
             ex = new Expression(this.nrMin, this.nrMax);
