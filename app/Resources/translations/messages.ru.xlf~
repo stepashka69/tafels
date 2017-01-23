@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="c1cbade3642d2040c77701c3d0b16e5b" resname="Multiplication training">
+        <source>Multiplication training</source>
+        <target>Тренеруем таблицу умножения</target>
+      </trans-unit>
+      <trans-unit id="8005f4bf92ae7945a675bd8f13fc4bd4" resname="Multiplication Tables Training">
+        <source>Multiplication Tables Training</source>
+        <target>Тренеруем таблицу умножения</target>
+      </trans-unit>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5" resname="Home">
+        <source>Home</source>
+        <target>Главная</target>
+      </trans-unit>
+      <trans-unit id="8f7f4c1ce7a4f933663d10543562b096" resname="About">
+        <source>About</source>
+        <target>О проекте</target>
+      </trans-unit>
+      <trans-unit id="b87b06dc652e0366820314df3ec119e2" resname="Project created for fun by its author.">
+        <source>Project created for fun by its author.</source>
+        <target>Проект создан автором просто так.</target>
+      </trans-unit>
+      <trans-unit id="2a844672a38fc64f3c23359327c29195" resname="Learn Multiplication">
+        <source>Learn Multiplication</source>
+        <target>Учите таблицу умножения</target>
+      </trans-unit>
+      <trans-unit id="f6b422972f434b275a78f3e12ef17a82" resname="Get a link below, open it and make your child training. Later access all the stats and&#10;            results.">
+        <source>Get a link below, open it and make your child training. Later access all the stats and
+            results.</source>
+        <target>Перейдите по ссылке и дайте вашему ребенку третироваться. Позже вы можете просмотреть все результаты и статистику занятий.</target>
+      </trans-unit>
+      <trans-unit id="5dd95b5c4ba2f2aa72431a622de6f371" resname="Step 1. Choose desired traning parameters">
+        <source>Step 1. Choose desired traning parameters</source>
+        <target>Шаг 1. Выбирите имя и параметры тренировки</target>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987" resname="Name">
+        <source>Name</source>
+        <target>Имя</target>
+      </trans-unit>
+      <trans-unit id="5da618e8e4b89c66fe86e32cdafde142" resname="From">
+        <source>From</source>
+        <target>От</target>
+      </trans-unit>
+      <trans-unit id="e12167aa0a7698e6ebc92b4ce3909b53" resname="To">
+        <source>To</source>
+        <target>До</target>
+      </trans-unit>
+      <trans-unit id="179b141fbb5dd72e355d47fe2d80c2f2" resname="Exercises per session">
+        <source>Exercises per session</source>
+        <target>Количество примеров</target>
+      </trans-unit>
+      <trans-unit id="e5e5a0ebbf27590c874599000b16b472" resname="Step 2. Copy links">
+        <source>Step 2. Copy links</source>
+        <target>Шаг 2. Скопируйте ссылки</target>
+      </trans-unit>
+      <trans-unit id="5c23325827660c91d82a1309cf2ec1ca" resname="Child link for traning (for child)">
+        <source>Child link for traning (for child)</source>
+        <target>Ссылка на упражнения (для ребенка)</target>
+      </trans-unit>
+      <trans-unit id="37916889dbec0b1eedf6babfc47489de" resname="link for training statistics (for parent)">
+        <source>link for training statistics (for parent)</source>
+        <target>Ссылка для статистики (для родителей)</target>
+      </trans-unit>
+      <trans-unit id="63d04c398e71d6e61286429e07bcb314" resname="Step 3. Enjoy">
+        <source>Step 3. Enjoy</source>
+        <target>Шаг 3. Наслаждайтесь</target>
+      </trans-unit>
+      <trans-unit id="fb188e808b65b9ee48a5c9d88fb92af2" resname="Start Again">
+        <source>Start Again</source>
+        <target>Начать сначала</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

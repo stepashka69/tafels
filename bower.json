@@ -3,7 +3,7 @@
   "description": "Tafels oefening",
   "main": "Gruntfile.js",
   "authors": [
-    "Andrey"
+    "Andrey Stepanov"
   ],
   "license": "ISC",
   "homepage": "",
@@ -20,8 +20,7 @@
   "exportsOverride": {
     "bootstrap": {
       "css": [
-        "dist/css/bootstrap.css",
-        "dist/css/bootstrap-theme.css"
+        "dist/css/bootstrap.css"
       ],
       "js": "dist/js/bootstrap.js",
       "fonts": "dist/fonts/*"

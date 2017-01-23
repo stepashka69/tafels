@@ -8,7 +8,7 @@ module.exports = function (grunt) {
                 options: {
                     layout: 'byComponent',
                     install: true,
-                    targetDir: 'www/vendor',
+                    targetDir: 'web/vendor',
                     cleanTargetDir: true
                 }
             }

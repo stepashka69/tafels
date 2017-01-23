@@ -1,0 +1,139 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1>{% trans %}Learn Multiplication{% endtrans %}</h1>
+        <p class="lead">{% trans %}Get a link below, open it and make your child training. Later access all the stats and
+            results.{% endtrans %}</p>
+    </div>
+    <div class="marketing">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>{% trans %}Step 1. Choose desired traning parameters{% endtrans %}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">{% trans %}Name{% endtrans %}</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="{% trans %}Name{% endtrans %}">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">{% trans %}From{% endtrans %}</label>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <select class="form-control">
+                                            {% for i in 0..10 %}
+                                                <option value="{{ i }}"{% if loop.first %} selected {% endif %}>{{ i }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">{% trans %}To{% endtrans %}</label>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <select class="form-control">
+                                            {% for i in 0..10 %}
+                                                <option value="{{ i }}"{% if loop.last %} selected {% endif %}>{{ i }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">{% trans %}Exercises per session{% endtrans %}</label>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <select class="form-control">
+                                            {% for i in [10, 20, 40, 80] %}
+                                                <option value="{{ i }}"{% if i == 20 %} selected{% endif %}>{{ i }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>{% trans %}Step 2. Copy links{% endtrans %}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">{% trans %}Child link for traning (for child){% endtrans %}</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="http://">
+                            <div class="input-group-addon" role="button" data-toggle="tooltip" data-placement="top"
+                                 title="Copy to clipboard">
+                                <i class="glyphicon glyphicon-copy"></i>
+                            </div>
+                            <div class="input-group-addon" role="button" data-toggle="tooltip" data-placement="top"
+                                 title="Open in new window">
+                                <i class="glyphicon glyphicon-new-window"></i>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">{% trans %}link for training statistics (for parent){% endtrans %}</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="http://">
+                            <div class="input-group-addon" role="button" data-toggle="tooltip" data-placement="top"
+                                 title="Copy to clipboard">
+                                <i class="glyphicon glyphicon-copy"></i>
+                            </div>
+                            <div class="input-group-addon" role="button" data-toggle="tooltip" data-placement="top"
+                                 title="Open in new window">
+                                <i class="glyphicon glyphicon-new-window"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>{% trans %}Step 3. Enjoy{% endtrans %}</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row start-again">
+        <div class="col-lg-12 text-center">
+            <button type="button" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-refresh"></i>
+                {% trans %}Start Again{% endtrans %}
+            </button>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script type="application/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+{% endblock %}
