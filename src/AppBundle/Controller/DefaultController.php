@@ -2,7 +2,6 @@
 
 namespace AppBundle\Controller;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Intl\Intl;
@@ -37,7 +36,7 @@ class DefaultController extends Controller
         $route = $masterRequest->get('_route');
         $routeParams = $masterRequest->query->all();
         $langs = [];
-        $supportedLanguages = $this->getParameter('supported_languages');
+        $supportedLanguages = $this->getParameter('supported_locales');
         foreach ($supportedLanguages as $languageCode) {
             $langs[$languageCode] = Intl::getLanguageBundle()->getLanguageName($languageCode, null, $languageCode);
         }

@@ -4,3 +4,8 @@ parameters:
 #    parameter_name: value
 
 services:
+    app.locale_listener:
+        class: AppBundle\EventListener\LocaleListener
+        arguments: ['@router', '%supported_locales%', '%kernel.default_locale%']
+        tags:
+            - { name: kernel.event_subscriber }
