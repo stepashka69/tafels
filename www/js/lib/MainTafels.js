@@ -195,6 +195,7 @@
 	            this.question.init();
 	            this.question.show();
 	            this.log.init();
+	            this.count = 0;
 	        }
 	    }]);
 	
