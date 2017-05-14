@@ -1,0 +1,4 @@
+tafels_topic:
+    channel: tafels/user
+    handler:
+        callback: 'tafels.user' #related to the getName() of your topic

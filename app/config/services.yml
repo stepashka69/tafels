@@ -9,3 +9,8 @@ services:
         arguments: ['@router', '%supported_locales%', '%kernel.default_locale%']
         tags:
             - { name: kernel.event_subscriber }
+
+    ws.user_topic:
+        class: AppBundle\Topic\UserTopic
+        tags:
+            - { name: gos_web_socket.topic }
